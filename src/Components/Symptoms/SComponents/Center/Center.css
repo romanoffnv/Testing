@@ -1,0 +1,29 @@
+.central {
+  width: 315px;
+  height: 315px;
+  border-radius: 50%;
+  position: absolute;
+  top: 270px;
+  left: 343px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(59.9%, rgba(255, 255, 255, 0)), color-stop(85.42%, #ffffff));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 59.9%, #ffffff 85.42%);
+  opacity: 0.8;
+  background-image: url(../../../Adult/img/Adult.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.adultCenter {
+  position: absolute;
+  top: 231px;
+  left: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #068ca6;
+}
+/*# sourceMappingURL=Center.css.map */

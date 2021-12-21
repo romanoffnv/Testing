@@ -1,0 +1,25 @@
+.s2 {
+  border: blueviolet;
+  top: 177px;
+  right: 234px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#Msg2 {
+  position: absolute;
+  top: 25px;
+  left: 140px;
+  text-align: left;
+  width: 242px;
+}
+
+#sypmIcon__img2 {
+  background-image: url(../../../Symptoms/img/Symp2.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=S2.css.map */

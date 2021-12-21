@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,gBAAgB,EAAE,uBAAuB;EACzC,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,iBAAiB;CACvC;;AAED,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,mBAAmB;CAC7B;;AACD,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,kBAAkB;EAC3B,aAAa,EAAE,CAAC;CACjB",
+    "sources": [
+        "Kid.scss"
+    ],
+    "names": [],
+    "file": "Kid.css"
+}

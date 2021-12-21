@@ -1,0 +1,25 @@
+.s6 {
+  border: blueviolet;
+  bottom: 165px;
+  left: 245px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#Msg6 {
+  position: absolute;
+  top: 35px;
+  left: -185px;
+  text-align: right;
+  width: 162px;
+}
+
+#sypmIcon__img6 {
+  background-image: url(../../../Symptoms/img/Symp6.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=S6.css.map */

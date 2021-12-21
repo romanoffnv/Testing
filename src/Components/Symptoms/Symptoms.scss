@@ -1,0 +1,70 @@
+.sympWrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  .iconsDescription {
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2a477d;
+    .pressIcon {
+        font-weight: 500;
+        font-size: 16px;
+        color: #028CA6;
+    }
+  }
+
+}
+.sympIconsWrapper {
+  width: 1000px;
+  height: 854px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sypmIcon {
+  position: absolute;
+  width: fit-content;
+  display: flex;
+  flex-direction: column-reverse;
+  &__group {
+    width: 115px;
+    height: 117px;
+    position: relative;
+  }
+  &__cross {
+    background-color: #247db1;
+    z-index: 3;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__img {
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__sympMsg {
+    width: fit-content;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color: #223867;
+  }
+}
+
+.sypmIcon__img:hover {
+  cursor: pointer;
+}

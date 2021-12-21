@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Main {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(25%, rgba(217, 246, 251, 0.5833)), to(#caf2fa));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #caf2fa 100%);
+  color: #223867;
+  width: 1264px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Main .header h3 {
+  margin: 35px auto 10px auto;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.Main .header p {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.Main .adultKidWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Main .adultKidWrapper .title {
+  color: #028ca6;
+  margin: 43px auto 23px auto;
+}
+
+.Main .adultKidWrapper .cardImg {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  -webkit-filter: drop-shadow(0px 4px 25px rgba(6, 140, 166, 0.25));
+          filter: drop-shadow(0px 4px 25px rgba(6, 140, 166, 0.25));
+}
+
+.adultWrapper, .kidWrapper {
+  width: 50%;
+}
+
+.description {
+  padding: 15px 9px;
+  width: 578px;
+  margin: 0 auto;
+  margin-bottom: 31px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #068ca6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+          box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 27px;
+}
+
+.descWrapper {
+  margin: 28px auto 89px auto;
+}
+/*# sourceMappingURL=Main.css.map */

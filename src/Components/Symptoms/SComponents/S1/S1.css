@@ -1,0 +1,19 @@
+.s1 {
+  top: 105px;
+  left: 443px;
+}
+
+#Msg1 {
+  position: absolute;
+  top: -45px;
+  left: 20px;
+  text-align: center;
+}
+
+#sypmIcon__img1 {
+  background-image: url(../../../Symptoms/img/Symp1.png);
+  background-size: 115%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=S1.css.map */

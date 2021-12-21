@@ -1,0 +1,83 @@
+.sympWrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.sympWrapper .iconsDescription {
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2a477d;
+}
+
+.sympWrapper .iconsDescription .pressIcon {
+  font-weight: 500;
+  font-size: 16px;
+  color: #028CA6;
+}
+
+.sympIconsWrapper {
+  width: 1000px;
+  height: 854px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sypmIcon {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.sypmIcon__group {
+  width: 115px;
+  height: 117px;
+  position: relative;
+}
+
+.sypmIcon__cross {
+  background-color: #247db1;
+  z-index: 3;
+  border-radius: 50%;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sypmIcon__img {
+  border-radius: 50%;
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.sypmIcon__sympMsg {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  color: #223867;
+}
+
+.sypmIcon__img:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Symptoms.css.map */

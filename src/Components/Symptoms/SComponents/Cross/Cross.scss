@@ -1,0 +1,20 @@
+.bar {
+  border: solid white;
+  position: absolute;
+  width: 8px;
+  height: 24px;
+  left: 16.5px;
+  top: 8px;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.barPatch {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #247DB1;
+    z-index: 3;
+}
