@@ -3,11 +3,46 @@
   left: 443px;
 }
 
+@media (max-width: 1000px) {
+  .s1 {
+    top: 120px;
+    left: 255px;
+  }
+}
+
+@media (max-width: 600px) {
+  .s1 {
+    top: 330px;
+    left: 80px;
+  }
+}
+
 #Msg1 {
   position: absolute;
   top: -45px;
   left: 20px;
   text-align: center;
+}
+
+@media (max-width: 1100px) {
+  #Msg1 {
+    top: -20px;
+    left: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #Msg1 {
+    top: -20px;
+    left: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #Msg1 {
+    top: -20px;
+    left: 40px;
+  }
 }
 
 #sypmIcon__img1 {

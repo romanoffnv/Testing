@@ -1,5 +1,7 @@
 .s5 {
-  border: blueviolet;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   bottom: 99px;
   left: 443px;
   -webkit-box-orient: horizontal;
@@ -8,12 +10,40 @@
           flex-direction: row;
 }
 
+@media (max-width: 1000px) {
+  .s5 {
+    bottom: 235px;
+    left: 255px;
+  }
+}
+
+@media (max-width: 600px) {
+  .s5 {
+    top: 1130px;
+    left: 80px;
+  }
+}
+
 #Msg5 {
   position: absolute;
   top: 140px;
   left: -55px;
   text-align: center;
   width: 239px;
+}
+
+@media (max-width: 1100px) {
+  #Msg5 {
+    top: 125px;
+    left: -55px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #Msg5 {
+    top: -40px;
+    left: -50px;
+  }
 }
 
 #sypmIcon__img5 {

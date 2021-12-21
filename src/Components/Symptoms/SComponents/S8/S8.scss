@@ -1,21 +1,39 @@
+@import "../../../Mixins.scss";
+
 .s8 {
-    border: blueviolet;
-    top: 177px;
-    left: 244px;
-    flex-direction: row;
+  border: blueviolet;
+  top: 177px;
+  left: 244px;
+  flex-direction: row;
+  @include width1000() {
+    top: 195px;
+    left: 90px;
+  }
+  @include width600() {
+    top: 1730px;
+    left: 80px;
+  }
 }
 
 #Msg8 {
-    position: absolute;
-    top: 45px;
-    left: -185px;
-    text-align: right;
-    width: 162px;
+  position: absolute;
+  top: 45px;
+  left: -185px;
+  text-align: right;
+  width: 162px;
+  @include width1100() {
+    top: 125px;
+    left: -55px;
+  }
+  @include width1000() {
+    top: -30px;
+    left: -50px;
+  }
 }
 
 #sypmIcon__img8 {
-    background-image: url(../../../Symptoms/img/Symp8.png);
-    background-size: 110%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  background-image: url(../../../Symptoms/img/Symp8.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

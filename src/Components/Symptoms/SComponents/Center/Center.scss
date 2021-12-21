@@ -1,3 +1,5 @@
+@import "../../../Mixins.scss";
+
 .central {
   width: 315px;
   height: 315px;
@@ -15,6 +17,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  @include width1000 () {
+    width: 200px;
+    height: 200px;
+    left: 200px;
+  }
+  @include width600 () {
+    width: 280px;
+    height: 280px;
+    top: 10px;
+    left: 10px;
+    
+  }
 }
 
 .adultCenter {
@@ -28,4 +42,14 @@
   line-height: 35px;
   text-align: center;
   color: #068ca6;
+  z-index: 3;
+  @include width1000 () {
+    font-size: 1.3em;
+    top: 150px;
+    left: 50px;
+  }
+  @include width1000 () {
+    top: 210px;
+    right: 65px;
+  }
 }

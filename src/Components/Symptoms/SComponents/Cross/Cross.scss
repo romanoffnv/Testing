@@ -1,3 +1,4 @@
+@import "../../../Mixins.scss";
 .bar {
   border: solid white;
   position: absolute;
@@ -5,6 +6,20 @@
   height: 24px;
   left: 16.5px;
   top: 8px;
+  @include width1000 () {
+    border: 1.5px solid white;
+    width: 7px;
+    height: 23px;
+    left: 11.5px;
+    top: 3px;
+  }
+  @include width600() {
+    border: 2px solid white;
+    width: 13px;
+    height: 35px;
+    left: 18px;
+    top: 7px;
+  }
 }
 
 .rotate {

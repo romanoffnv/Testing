@@ -1,8 +1,18 @@
+@import "../../../Mixins.scss";
+
 .s4 {
-    border: blueviolet;
+    height: fit-content;
     bottom: 165px;
     right: 234px;
     flex-direction: row;
+    @include width1000 () {
+        bottom: 295px;
+        right: 90px;
+      }
+      @include width600() {
+        top: 930px;
+        left: 80px;
+      }
 }
 
 #Msg4 {
@@ -11,6 +21,16 @@
     left: 140px;
     text-align: left;
     width: 187px;
+    @include width1100 () {
+        top: 125px;
+        left: -30px;
+        text-align: center;
+      }
+      @include width1000 () {
+        top: -60px;
+        left: -25px;
+      }
+      
 }
 
 #sypmIcon__img4 {

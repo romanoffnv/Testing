@@ -1,21 +1,41 @@
+@import "../../../Mixins.scss";
+
 .s6 {
-    border: blueviolet;
-    bottom: 165px;
-    left: 245px;
-    flex-direction: row;
+  border: blueviolet;
+  height: fit-content;
+  bottom: 165px;
+  left: 245px;
+  flex-direction: row;
+  @include width1000() {
+    bottom: 295px;
+    left: 90px;
+  }
+  @include width600() {
+    top: 1330px;
+    left: 80px;
+  }
 }
 
 #Msg6 {
-    position: absolute;
-    top: 35px;
-    left: -185px;
-    text-align: right;
-    width: 162px;
+  position: absolute;
+  top: 35px;
+  left: -185px;
+  text-align: right;
+  width: 162px;
+  @include width1100() {
+    top: 125px;
+    left: -20px;
+    text-align: center;
+  }
+  @include width1000() {
+    top: -50px;
+    left: -15px;
+  }
 }
 
 #sypmIcon__img6 {
-    background-image: url(../../../Symptoms/img/Symp6.png);
-    background-size: 110%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  background-image: url(../../../Symptoms/img/Symp6.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

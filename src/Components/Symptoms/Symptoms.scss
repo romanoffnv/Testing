@@ -1,3 +1,5 @@
+@import "../Mixins.scss";
+
 .sympWrapper {
   width: 100%;
   height: auto;
@@ -11,19 +13,32 @@
     font-size: 18px;
     line-height: 21px;
     color: #2a477d;
+    @include width1000 () {
+      display: flex;
+      flex-direction: column;
+    }
     .pressIcon {
-        font-weight: 500;
-        font-size: 16px;
-        color: #028CA6;
+      font-weight: 500;
+      font-size: 16px;
+      color: #028ca6;
     }
   }
-
 }
 .sympIconsWrapper {
   width: 1000px;
   height: 854px;
   margin: 0 auto;
   position: relative;
+  @include desktop() {
+    margin: 0 auto;
+  }
+  @include width1000() {
+    width: 600px;
+  }
+  @include width600 () {
+    width: 300px;
+    height: 2000px;
+  }
 }
 
 .sypmIcon {
@@ -31,10 +46,19 @@
   width: fit-content;
   display: flex;
   flex-direction: column-reverse;
+ 
   &__group {
     width: 115px;
     height: 117px;
     position: relative;
+    @include width1000() {
+      width: 90px;
+      height: 90px;
+    }
+    @include width600() {
+      width: 130px;
+      height: 130px;
+    }
   }
   &__cross {
     background-color: #247db1;
@@ -45,6 +69,14 @@
     position: absolute;
     top: 0;
     left: 0;
+    @include width1000() {
+      width: 30px;
+      height: 30px;
+    }
+    @include width600() {
+      width: 50px;
+      height: 50px;
+    }
   }
 
   &__img {
@@ -54,6 +86,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    
+    
   }
 
   &__sympMsg {
@@ -62,6 +96,11 @@
     font-size: 18px;
     font-weight: 700;
     color: #223867;
+    @include width1100() {
+      font-size: 0.8em;
+      padding: 0;
+      text-align: center;
+    }
   }
 }
 

@@ -1,21 +1,104 @@
+@import "../Mixins.scss";
+
 .adult__img {
   background-image: url(../Adult/img/Adult.png);
   background-size: 420px 420px;
   background-repeat: no-repeat;
   background-position: top 5px right 5px;
+  @include width727 () {
+    background-size: 300px 300px;
+  }
+  @include width600 () {
+    background-size: 450px 450px;
+  }
 }
 
 
 #adult_desc1 {
     height: 88px;
     padding: 15px 9px 16px 21px;
+    @include desktop () {
+        padding: 0.7em;
+    }
+    @include width1165 () {
+        font-size: 1em;
+        line-height: 1.5em;
+      }
+      @include width865 () {
+        height: 100px;
+      }
+      @include width818 () {
+        height: 108px;
+      }
+      @include width727 () {
+        height: 135px; 
+      }
+
+      @include width665 () {
+        height: 150px; 
+      }
+      @include width600 () {
+        height: 90px; 
+      }
+      @include width360 () {
+        height: 120px; 
+      }
 }
 #adult_desc2 {
     height: 149px;
     padding: 18px 38px 26px 21px;
+    @include desktop () {
+        padding: 0.7em;
+    }
+    @include width1165 () {
+        height: 170px;
+        font-size: 1em;
+        line-height: 1.5em;
+      }
+      @include width865 () {
+        height: 173px;
+      }
+      @include width818 () {
+        height: 200px;
+      }
+      @include width727 () {
+        height: 220px; 
+      }
+      @include width665 () {
+        height: 260px; 
+      }
+      @include width600 () {
+        height: 190px; 
+      }
+      @include width360 () {
+        height: 210px; 
+      }
+
 }
 #adult_desc3 {
     height: 121px;
     padding: 18px 23px 3px 21px;
     margin-bottom: 0;
+    @include desktop () {
+        padding: 0.7em;
+    }
+    @include width1165 () {
+        font-size: 1em;
+        line-height: 1.5em;
+      }
+      @include width865 () {
+        height: 126px;
+      }
+      @include width727 () {
+        height: 138px; 
+      }
+      @include width665 () {
+        height: 180px; 
+      }
+      @include width600 () {
+        height: 115px; 
+      }
+      @include width360 () {
+        height: 140px; 
+      }
 }

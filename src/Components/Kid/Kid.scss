@@ -1,3 +1,4 @@
+@import "../Mixins.scss";
 .kid__img {
   background-image: url(../Kid/img/kid.png);
   background-size: cover;
@@ -8,9 +9,58 @@
 #kid_desc1 {
   height: 222px;
   padding: 16px 24px 29px 16px;
+  @include desktop () {
+    padding: 0.7em;
+  }
+  @include width1165 () {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  @include width865 () {
+    height: 240px;
+  }
+  @include width818 () {
+    height: 258px;
+  }
+  @include width727 () {
+    height: 290px; 
+  }
+  @include width665 () {
+    height: 340px; 
+  }
+  @include width600 () {
+    height: 270px; 
+  }
+  @include width360 () {
+    height: 350px; 
+  }
+  
 }
 #kid_desc2 {
   height: 171px;
   padding: 13px 5px 18px 16px;
   margin-bottom: 0;
+  @include desktop () {
+    padding: 0.3em 0.7em;
+  }
+  @include width1165 () {
+    height: 190px;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  @include width818 () {
+    height: 208px;
+  }
+  @include width727 () {
+    height: 235px; 
+  }
+  @include width665 () {
+    height: 280px; 
+  }
+  @include width600 () {
+    height: 220px; 
+  }
+  @include width360 () {
+    height: 290px; 
+  }
 }

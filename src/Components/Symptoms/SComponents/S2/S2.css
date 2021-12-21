@@ -8,12 +8,43 @@
           flex-direction: row;
 }
 
+@media (max-width: 1000px) {
+  .s2 {
+    top: 195px;
+    right: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .s2 {
+    top: 530px;
+    left: 80px;
+  }
+}
+
 #Msg2 {
   position: absolute;
   top: 25px;
   left: 140px;
   text-align: left;
   width: 242px;
+}
+
+@media (max-width: 1100px) {
+  #Msg2 {
+    top: 125px;
+    left: -50px;
+    font-size: .8em;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  #Msg2 {
+    top: -50px;
+    right: 90px;
+  }
 }
 
 #sypmIcon__img2 {

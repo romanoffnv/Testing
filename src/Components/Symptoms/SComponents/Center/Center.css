@@ -14,6 +14,23 @@
   background-position: center;
 }
 
+@media (max-width: 1000px) {
+  .central {
+    width: 200px;
+    height: 200px;
+    left: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .central {
+    width: 280px;
+    height: 280px;
+    top: 10px;
+    left: 10px;
+  }
+}
+
 .adultCenter {
   position: absolute;
   top: 231px;
@@ -25,5 +42,21 @@
   line-height: 35px;
   text-align: center;
   color: #068ca6;
+  z-index: 3;
+}
+
+@media (max-width: 1000px) {
+  .adultCenter {
+    font-size: 1.3em;
+    top: 150px;
+    left: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .adultCenter {
+    top: 210px;
+    right: 65px;
+  }
 }
 /*# sourceMappingURL=Center.css.map */
